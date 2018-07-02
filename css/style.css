@@ -1,0 +1,59 @@
+form.login {
+	width: 300px;
+	margin: 100px auto;
+}
+
+.delete-button {
+	color: white;
+	background-color: red;
+	border-radius: 50%;
+	border: 0;
+	padding: 0;
+	height: 20px;
+	width: 20px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.registration {
+	padding-bottom: 40px;
+}
+
+.list-item-title {
+	padding-top: 4px;
+}
+
+.arrow {
+	-webkit-transition: transform 0.5s;
+	-moz-transition: transform 0.5s;
+	-ms-transition: transform 0.5s;
+	-o-transition: transform 0.5s;
+	transition: transform 0.5s;
+	cursor: pointer;
+}
+
+.arrow:not(.collapsed) {
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.payment {
+	padding: 10px 0;
+}
+
+.payment-days {
+	padding: 15px 0;
+}
+
+.delete-payment {
+	font-weight: bold;
+}
+
+#students-list {
+	margin-top: 20px;
+}
